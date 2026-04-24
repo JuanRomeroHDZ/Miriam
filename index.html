@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lic. [Nombre] | Psicología Clínica</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;500;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body id="inicio">
+
+    <div class="ambient-background">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <header class="header glass-nav">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-symbol">Ψ</span>
+                <span class="logo-text">Lic. [Apellido]</span>
+            </div>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            <label for="menu-toggle" class="menu-hamburger" aria-label="Abrir menú">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </label>
+
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="#bento-perfil">Perfil</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#contacto" class="btn btn-primary">Contactar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero slide-up">
+            <div class="hero-content">
+                <div class="badge">Disponible para nuevos retos 💡</div>
+                <h1 class="hero-title">Explorando la mente,<br>construyendo <span class="text-accent">bienestar.</span></h1>
+                <p class="hero-subtitle">[Tu descripción en una línea. Ej: Especialista en terapia cognitivo-conductual con enfoque empático y basado en evidencia].</p>
+                <div class="hero-actions">
+                    <a href="#contacto" class="btn btn-primary btn-glow">Solicitar Entrevista</a>
+                    <a href="CV.pdf" download="CV_Lic_Apellido.pdf" class="btn btn-secondary">Descargar CV ⬇</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="bento-perfil" class="bento-section fade-in">
+            <div class="bento-grid">
+                
+                <div class="bento-card bento-large glass-card">
+                    <h2 class="bento-title">Filosofía Clínica</h2>
+                    <p class="bento-text">Mi enfoque integra la calidez humana con el rigor científico. Busco crear un espacio seguro donde el paciente se sienta validado, mientras aplicamos herramientas prácticas para su desarrollo y salud mental.</p>
+                </div>
+
+                <div class="bento-card bento-small glass-card accent-card">
+                    <span class="bento-icon">🎓</span>
+                    <h3 class="bento-title-sm">Cédula Prof.</h3>
+                    <p class="bento-text-sm">[Tu Número]</p>
+                </div>
+
+                <div class="bento-card bento-medium glass-card">
+                    <h2 class="bento-title">Herramientas</h2>
+                    <div class="pill-container">
+                        <span class="pill">Entrevista Clínica</span>
+                        <span class="pill">Pruebas Psicométricas</span>
+                        <span class="pill">Terapia Breve</span>
+                        <span class="pill">Manejo de Crisis</span>
+                        <span class="pill">Redacción de Informes</span>
+                    </div>
+                </div>
+
+                <div class="bento-card bento-medium glass-card">
+                    <h2 class="bento-title">Valores Éticos</h2>
+                    <ul class="bento-list">
+                        <li><strong>Empatía:</strong> Escucha activa sin juicios.</li>
+                        <li><strong>Confidencialidad:</strong> Rigor absoluto.</li>
+                        <li><strong>Actualización:</strong> Formación continua.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="experience-section fade-in">
+            <h2 class="section-heading">Trayectoria</h2>
+            
+            <div class="timeline-modern">
+                <div class="timeline-row glass-card">
+                    <div class="timeline-time">
+                        <span class="year">2023 - 2024</span>
+                        <span class="type">Prácticas Clínicas</span>
+                    </div>
+                    <div class="timeline-data">
+                        <h3>[Nombre de la Institución / Clínica]</h3>
+                        <p>[Breve descripción de logros: Ej. Evaluación de pacientes, co-terapia en sesiones grupales y elaboración de expedientes clínicos].</p>
+                    </div>
+                </div>
+
+                <div class="timeline-row glass-card">
+                    <div class="timeline-time">
+                        <span class="year">2019 - 2023</span>
+                        <span class="type">Licenciatura</span>
+                    </div>
+                    <div class="timeline-data">
+                        <h3>Licenciatura en Psicología</h3>
+                        <p>[Nombre de la Universidad]. Graduado con excelencia académica. Especialización en psicología clínica.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section fade-in">
+            <div class="contact-glass glass-card">
+                <div class="contact-text">
+                    <h2 class="section-heading">¿Conectamos?</h2>
+                    <p>Estoy listo para aportar valor a tu equipo de trabajo o institución. Envíame un mensaje y preparemos una entrevista.</p>
+                    <div class="direct-contact">
+                        <a href="mailto:tu-correo@ejemplo.com" class="contact-link">📧 tu-correo@ejemplo.com</a>
+                        <span class="contact-link">📱 [Tu Teléfono]</span>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#success-msg" class="modern-form">
+                        <div class="input-wrapper">
+                            <input type="text" id="nombre" class="modern-input peer" required placeholder=" ">
+                            <label for="nombre" class="modern-label">Tu Nombre</label>
+                            <div class="input-line"></div>
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <input type="email" id="correo" class="modern-input peer" required placeholder=" ">
+                            <label for="correo" class="modern-label">Tu Correo</label>
+                            <div class="input-line"></div>
+                        </div>
+                        
+                        <div class="input-wrapper">
+                            <textarea id="mensaje" class="modern-input peer" rows="3" required placeholder=" "></textarea>
+                            <label for="mensaje" class="modern-label">Mensaje</label>
+                            <div class="input-line"></div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full btn-glow">Enviar Mensaje</button>
+                        
+                        <div id="success-msg" class="alert-success">
+                            ✨ Mensaje validado correctamente.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Lic. [Tu Apellido]. Todos los derechos reservados.</p>
+        <div class="footer-links">
+            <a href="https://linkedin.com">LinkedIn</a>
+            <a href="CV.pdf" download="CV_Lic_Apellido.pdf">Descargar CV</a>
+        </div>
+    </footer>
+
+</body>
+</html>
