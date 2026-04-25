@@ -3,167 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lic. Miriam del Rocio | Psicologa</title>
+    <title>Psic. Mirian Garcia Alvarez | Clínica y Bienestar</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;500;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500;1,600&display=swap" rel="stylesheet">
 </head>
-<body id="inicio">
+<body>
 
-    <div class="ambient-background">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
-    </div>
+    <input type="checkbox" id="dark-mode-toggle" class="theme-toggle-checkbox">
 
-    <header class="header glass-nav">
-        <div class="container nav-container">
-            <div class="logo">
-                <span class="logo-symbol">Ψ</span>
-                <span class="logo-text">Lic. Garcia Alvarez</span>
-            </div>
-            
-            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
-            <label for="menu-toggle" class="menu-hamburger" aria-label="Abrir menú">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </label>
-
-            <nav class="navbar">
-                <ul class="nav-menu">
-                    <li><a href="#bento-perfil">Perfil</a></li>
-                    <li><a href="#experiencia">Experiencia</a></li>
-                    <li><a href="#contacto" class="btn btn-primary">Contactar</a></li>
-                </ul>
-            </nav>
+    <div class="app-wrapper">
+        
+        <div class="ambient-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
         </div>
-    </header>
 
-    <main class="container">
-        <section class="hero slide-up">
-            <div class="hero-content">
-                <div class="badge">Disponible para nuevos retos 💡</div>
-                <h1 class="hero-title">Explorando la mente,<br>construyendo <span class="text-accent">bienestar.</span></h1>
-                <p class="hero-subtitle">[Tu descripción en una línea. Ej: Especialista en terapia cognitivo-conductual con enfoque empático y basado en evidencia].</p>
-                <div class="hero-actions">
-                    <a href="#contacto" class="btn btn-primary btn-glow">Solicitar Entrevista</a>
-                    <a href="CV.pdf" download="CV_Lic_Apellido.pdf" class="btn btn-secondary">Descargar CV ⬇</a>
+        <header class="header glass-nav">
+            <div class="container nav-container">
+                <div class="logo">
+                    <span class="logo-symbol">Ψ</span>
+                    <span class="logo-text">Psic. <span class="text-accent">Mirian Garcia</span></span>
                 </div>
-            </div>
-        </section>
-
-        <section id="bento-perfil" class="bento-section fade-in">
-            <div class="bento-grid">
                 
-                <div class="bento-card bento-large glass-card">
-                    <h2 class="bento-title">Filosofía Clínica</h2>
-                    <p class="bento-text">Mi enfoque integra la calidez humana con el rigor científico. Busco crear un espacio seguro donde el paciente se sienta validado, mientras aplicamos herramientas prácticas para su desarrollo y salud mental.</p>
-                </div>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+                
+                <label for="menu-toggle" class="menu-hamburger" aria-label="Abrir menú">
+                    <svg class="hamburger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <line x1="4" y1="9" x2="20" y2="9" class="line-1"></line>
+                        <line x1="4" y1="15" x2="20" y2="15" class="line-2"></line>
+                    </svg>
+                </label>
 
-                <div class="bento-card bento-small glass-card accent-card">
-                    <span class="bento-icon">🎓</span>
-                    <h3 class="bento-title-sm">Cédula Prof.</h3>
-                    <p class="bento-text-sm">[Tu Número]</p>
-                </div>
-
-                <div class="bento-card bento-medium glass-card">
-                    <h2 class="bento-title">Herramientas</h2>
-                    <div class="pill-container">
-                        <span class="pill">Entrevista Clínica</span>
-                        <span class="pill">Pruebas Psicométricas</span>
-                        <span class="pill">Terapia Breve</span>
-                        <span class="pill">Manejo de Crisis</span>
-                        <span class="pill">Redacción de Informes</span>
-                    </div>
-                </div>
-
-                <div class="bento-card bento-medium glass-card">
-                    <h2 class="bento-title">Valores Éticos</h2>
-                    <ul class="bento-list">
-                        <li><strong>Empatía:</strong> Escucha activa sin juicios.</li>
-                        <li><strong>Confidencialidad:</strong> Rigor absoluto.</li>
-                        <li><strong>Actualización:</strong> Formación continua.</li>
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li><a href="#bento-perfil" class="nav-link">Perfil</a></li>
+                        <li><a href="#experiencia" class="nav-link">Trayectoria</a></li>
+                        <li><a href="#resenas" class="nav-link">Reseñas</a></li>
+                        <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+                        <li><a href="#contacto" class="btn btn-primary">Agendar Cita</a></li>
                     </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="hero slide-up">
+                <div class="hero-content">
+                    <div class="badge">Atención psicológica empática y profesional 💡</div>
+                    <h1 class="hero-title">Espacios de escucha,<br>procesos de <span class="text-accent">bienestar.</span></h1>
+                    <p class="hero-subtitle">Especializada en adolescentes, adultos y terapia de pareja. Un acompañamiento cálido y profesional centrado en brindarte herramientas para la vida.</p>
+                    <div class="hero-actions">
+                        <a href="#contacto" class="btn btn-primary btn-glow">Solicitar Entrevista</a>
+                        <a href="#bento-perfil" class="btn btn-secondary">Mi enfoque</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bento-perfil" class="bento-section fade-in">
+                <div class="bento-grid">
+                    
+                    <div class="bento-card bento-large glass-card">
+                        <h2 class="bento-title">Filosofía <span class="text-accent">Clínica</span></h2>
+                        <p class="bento-text">Mi enfoque integra la calidez humana con el rigor científico. Busco crear un espacio seguro donde te sientas validado(a). Trabajo con adolescentes, adultos y parejas mediante sesiones de 1 hora, adaptando los tiempos de forma flexible ante escenarios que requieran intervención en crisis inmediata.</p>
+                    </div>
+
+                    <div class="bento-card bento-small glass-card">
+                        <span class="bento-icon text-accent" style="font-size: 3rem;">🎓</span>
+                        <h3 class="bento-title-sm text-accent" style="margin-top: 0.5rem;">Cédula Prof.</h3>
+                        <p class="bento-text text-muted">En proceso</p>
+                    </div>
+
+                    <div class="bento-card bento-large glass-card">
+                        <h2 class="bento-title">Herramientas y <span class="text-accent">Recursos</span></h2>
+                        <div class="pill-container">
+                            <span class="pill">Terapia Breve (12 sesiones)</span>
+                            <span class="pill">Intervención en Crisis</span>
+                            <span class="pill">Arte Terapia</span>
+                            <span class="pill">Pruebas Proyectivas (HTP, Bender, Machover, etc.)</span>
+                            <span class="pill">Entrevista Clínica</span>
+                        </div>
+                    </div>
+
+                    <div class="bento-card bento-small glass-card" style="justify-content: flex-start;">
+                        <h2 class="bento-title" style="font-size: 1.5rem;">Conexión</h2>
+                        <ul class="bento-list social-list" style="text-align: left; margin-top: 1rem;">
+                            <li><strong>💻 Modalidad:</strong> <br>Atención 100% en línea.</li>
+                            <li><strong>📸 Instagram:</strong> <br><span class="text-muted">[ Próximamente ]</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experiencia" class="experience-section fade-in">
+                <h2 class="section-heading">Trayectoria <span class="text-accent">Profesional</span></h2>
+                <div class="timeline-modern">
+                    <div class="timeline-row glass-card">
+                        <div class="timeline-time">
+                            <span class="year">2023 - 2024</span>
+                            <span class="type">Prácticas Clínicas</span>
+                        </div>
+                        <div class="timeline-data">
+                            <h3>DEPAC - CESUN Universidad</h3>
+                            <p>Atención psicológica mediante el modelo de terapia breve. Aplicación e interpretación de una amplia batería de pruebas proyectivas, elaboración de expedientes clínicos y acompañamiento a adolescentes, adultos y parejas.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-row glass-card">
+                        <div class="timeline-time">
+                            <span class="year">2022 - 2025</span>
+                            <span class="type">Licenciatura</span>
+                        </div>
+                        <div class="timeline-data">
+                            <h3>Licenciatura en Psicología</h3>
+                            <p>CESUN Universidad. Formación clínica integral, complementada con estudios especializados en Arte Terapia avalados por la misma institución.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resenas" class="experience-section fade-in">
+                <h2 class="section-heading">Reseñas de <span class="text-accent">Pacientes</span></h2>
+                <p class="slider-hint">Desliza para ver más experiencias</p>
+                
+                <div class="reviews-slider">
+                    <div class="review-card glass-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                            </div>
+                            <div class="review-stars">★★★★★</div>
+                        </div>
+                        <p class="review-text">"Un espacio donde te sientes escuchado y validado. Su enfoque me ayudó a encontrar claridad en momentos difíciles."</p>
+                        <p class="review-author">— [Próximamente]</p>
+                    </div>
+                    
+                    <div class="review-card glass-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                            </div>
+                            <div class="review-stars">★★★★★</div>
+                        </div>
+                        <p class="review-text">"La sesión fue reveladora. Excelente profesionalismo y muchísima calidez humana que te hace sentir en confianza."</p>
+                        <p class="review-author">— [Próximamente]</p>
+                    </div>
+
+                    <div class="review-card glass-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                            </div>
+                            <div class="review-stars">★★★★★</div>
+                        </div>
+                        <p class="review-text">"Me brindó herramientas prácticas desde la primera sesión para manejar mis crisis de ansiedad de manera efectiva."</p>
+                        <p class="review-author">— [Próximamente]</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="ubicacion" class="experience-section fade-in">
+                <h2 class="section-heading">Ubicación del <span class="text-accent">Consultorio</span></h2>
+                <div class="location-grid glass-card">
+                    <div class="location-details">
+                        <h3>Atención en Línea</h3>
+                        <p>Actualmente brindo atención <strong>100% en línea</strong> a través de videollamada, asegurando la misma calidad, empatía y confidencialidad sin importar donde te encuentres.</p>
+                        <div class="location-status glass-card" style="box-shadow: none;">
+                            <span class="status-dot"></span>
+                            <p><strong>Consultorio Físico:</strong> En proceso de apertura.</p>
+                        </div>
+                        <p class="text-muted" style="margin-top: 1.5rem; font-size: 0.9rem;">
+                            * El mapa a continuación muestra una ubicación de referencia de mi zona de atención principal.
+                        </p>
+                    </div>
+                    <div class="location-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.5516086786634!2d-116.9242944848245!3d32.493905581057424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d938b8c2c8f8ab%3A0x6b8b0e8b2b9b8b0e!2sCESUN%20Universidad!5e0!3m2!1ses!2smx!4v1680000000000!5m2!1ses!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contacto" class="contact-section fade-in">
+                <div class="contact-glass glass-card">
+                    <div class="contact-text">
+                        <h2 class="section-heading" style="margin-bottom: 1rem;">¿Comenzamos?</h2>
+                        <p>Dar el primer paso es de valientes. Envíame un mensaje indicando el motivo de tu consulta y agendemos tu primera sesión para trabajar juntos.</p>
+                        <div class="direct-contact">
+                            <a href="mailto:mirigarcia040204@gmail.com" class="contact-link">📧 mirigarcia040204@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="#success-msg" class="modern-form">
+                            <div class="input-wrapper">
+                                <input type="text" id="nombre" class="modern-input peer" required placeholder=" ">
+                                <label for="nombre" class="modern-label">Tu nombre completo</label>
+                                <div class="input-line"></div>
+                            </div>
+                            
+                            <div class="input-wrapper">
+                                <input type="email" id="correo" class="modern-input peer" required placeholder=" ">
+                                <label for="correo" class="modern-label">Tu Correo Electrónico</label>
+                                <div class="input-line"></div>
+                            </div>
+
+                            <div class="input-wrapper">
+                                <select id="motivo" class="modern-input peer select-custom" required>
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="adolescente">Terapia para Adolescentes</option>
+                                    <option value="adulto">Terapia Individual (Adultos)</option>
+                                    <option value="pareja">Terapia de Pareja</option>
+                                    <option value="crisis">Intervención en Crisis</option>
+                                    <option value="otro">Otro motivo / Duda general</option>
+                                </select>
+                                <label for="motivo" class="modern-label label-select">Motivo de consulta</label>
+                                <div class="input-line"></div>
+                            </div>
+                            
+                            <div class="input-wrapper">
+                                <textarea id="mensaje" class="modern-input peer" rows="3" required placeholder=" "></textarea>
+                                <label for="mensaje" class="modern-label">Escribe tu mensaje aquí</label>
+                                <div class="input-line"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full btn-glow">Enviar Mensaje</button>
+                            
+                            <div id="success-msg" class="alert-success">
+                                ✨ Mensaje enviado correctamente. Te contactaré a la brevedad.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer glass-nav">
+            <div class="container footer-content">
+                
+                <div class="footer-left">
+                    <label for="dark-mode-toggle" class="theme-switch" aria-label="Cambiar tema">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </label>
+                </div>
+                
+                <div class="footer-center">
+                    <span class="footer-brand">Psic. <span class="text-accent" style="font-size: 1.1em;">Mirian</span> Garcia</span>
+                    <p class="text-muted" style="margin-top: 0.3rem; font-size: 0.85rem;">© 2026 Todos los derechos reservados.</p>
+                </div>
+
+                <div class="footer-right">
+                    <a href="CV.pdf" download="CV_Mirian_Garcia.pdf" class="nav-link" style="font-weight: 600;">Descargar CV</a>
                 </div>
             </div>
-        </section>
+        </footer>
 
-        <section id="experiencia" class="experience-section fade-in">
-            <h2 class="section-heading">Trayectoria</h2>
-            
-            <div class="timeline-modern">
-                <div class="timeline-row glass-card">
-                    <div class="timeline-time">
-                        <span class="year">2023 - 2024</span>
-                        <span class="type">Prácticas Clínicas</span>
-                    </div>
-                    <div class="timeline-data">
-                        <h3>[Nombre de la Institución / Clínica]</h3>
-                        <p>[Breve descripción de logros: Ej. Evaluación de pacientes, co-terapia en sesiones grupales y elaboración de expedientes clínicos].</p>
-                    </div>
-                </div>
+        <a href="https://wa.me/526634053289" target="_blank" class="floating-whatsapp" aria-label="Contactar por WhatsApp">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+        </a>
 
-                <div class="timeline-row glass-card">
-                    <div class="timeline-time">
-                        <span class="year">2019 - 2023</span>
-                        <span class="type">Licenciatura</span>
-                    </div>
-                    <div class="timeline-data">
-                        <h3>Licenciatura en Psicología</h3>
-                        <p>[Nombre de la Universidad]. Graduado con excelencia académica. Especialización en psicología clínica.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contacto" class="contact-section fade-in">
-            <div class="contact-glass glass-card">
-                <div class="contact-text">
-                    <h2 class="section-heading">¿Conectamos?</h2>
-                    <p>Estoy lista para aportar valor a tu equipo de trabajo o institución. Envíame un mensaje y preparemos una entrevista.</p>
-                    <div class="direct-contact">
-                        <a href="mailto:tu-correo@ejemplo.com" class="contact-link">📧 tu-correo@ejemplo.com</a>
-                        <span class="contact-link">📱 [Tu Teléfono]</span>
-                    </div>
-                </div>
-
-                <div class="contact-form">
-                    <form action="#success-msg" class="modern-form">
-                        <div class="input-wrapper">
-                            <input type="text" id="nombre" class="modern-input peer" required placeholder=" ">
-                            <label for="nombre" class="modern-label">Tu nombre</label>
-                            <div class="input-line"></div>
-                        </div>
-                        
-                        <div class="input-wrapper">
-                            <input type="email" id="correo" class="modern-input peer" required placeholder=" ">
-                            <label for="correo" class="modern-label">Tu Correo</label>
-                            <div class="input-line"></div>
-                        </div>
-                        
-                        <div class="input-wrapper">
-                            <textarea id="mensaje" class="modern-input peer" rows="3" required placeholder=" "></textarea>
-                            <label for="mensaje" class="modern-label">Mensaje</label>
-                            <div class="input-line"></div>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary btn-full btn-glow">Enviar Mensaje</button>
-                        
-                        <div id="success-msg" class="alert-success">
-                            ✨ Mensaje validado correctamente.
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>© 2026 Lic. Garcia Alvarez. Todos los derechos reservados.</p>
-        <div class="footer-links">
-            <a href="https://linkedin.com">LinkedIn</a>
-            <a href="CV.pdf" download="GarciaAlvarez_CV.pdf">Descargar CV</a>
-        </div>
-    </footer>
-
+    </div>
 </body>
 </html>
