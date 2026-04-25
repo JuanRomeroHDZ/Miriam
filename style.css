@@ -132,7 +132,7 @@ h1, h2, h3, h4 { color: var(--clr-text-main); transition: color 0.5s ease; lette
 
 /* Corrección: Botón Mi enfoque */
 .btn-secondary { background: rgba(184, 92, 69, 0.05); color: var(--clr-accent); border: 1px solid var(--clr-accent); }
-.btn-secondary:hover { background: var(--clr-accent); color: white; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(184, 92, 69, 0.2); }
+.btn-secondary:hover { background: rgba(184, 92, 69, 0.05); color: var(--clr-accent); transform: translateY(-2px); box-shadow: 0 10px 20px rgba(184, 92, 69, 0.2); }
 
 /* ==========================================================================
    5. BOTÓN FLOTANTE WHATSAPP
