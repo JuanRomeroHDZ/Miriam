@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Psic. Mirian Garcia Alvarez | Clínica y Bienestar</title>
+    <title>Psic. Mirian Garcia | Clínica y Bienestar</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500;1,600&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="inicio">
+
+    <div class="noise-overlay"></div>
 
     <input type="checkbox" id="dark-mode-toggle" class="theme-toggle-checkbox">
 
@@ -21,15 +23,15 @@
 
         <header class="header glass-nav">
             <div class="container nav-container">
-                <div class="logo">
+                <a href="#inicio" class="logo">
                     <span class="logo-symbol">Ψ</span>
-                    <span class="logo-text">Psic. <span class="text-accent">Mirian Garcia</span></span>
-                </div>
+                    <span class="logo-text">Psic. <span class="text-accent" style="font-weight: 500;">Mirian</span></span>
+                </a>
                 
                 <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
                 
                 <label for="menu-toggle" class="menu-hamburger" aria-label="Abrir menú">
-                    <svg class="hamburger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <svg class="hamburger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
                         <line x1="4" y1="9" x2="20" y2="9" class="line-1"></line>
                         <line x1="4" y1="15" x2="20" y2="15" class="line-2"></line>
                     </svg>
@@ -50,9 +52,9 @@
         <main class="container">
             <section class="hero slide-up">
                 <div class="hero-content">
-                    <div class="badge">Atención psicológica empática y profesional 💡</div>
-                    <h1 class="hero-title">Espacios de escucha,<br>procesos de <span class="text-accent">bienestar.</span></h1>
-                    <p class="hero-subtitle">Especializada en adolescentes, adultos y terapia de pareja. Un acompañamiento cálido y profesional centrado en brindarte herramientas para la vida.</p>
+                    <div class="editorial-tag">psicología clínica integral</div>
+                    <h1 class="hero-title">Un lugar para dejar de cargar con todo por un <span class="text-accent">momento.</span></h1>
+                    <p class="hero-subtitle">Terapia en línea para adolescentes, adultos y parejas. Acompañamiento clínico mediante herramientas prácticas, arte terapia y un espacio libre de juicios.</p>
                     <div class="hero-actions">
                         <a href="#contacto" class="btn btn-primary btn-glow">Solicitar Entrevista</a>
                         <a href="#bento-perfil" class="btn btn-secondary">Mi enfoque</a>
@@ -65,73 +67,75 @@
                     
                     <div class="bento-card bento-large glass-card">
                         <h2 class="bento-title">Filosofía <span class="text-accent">Clínica</span></h2>
-                        <p class="bento-text">Mi enfoque integra la calidez humana con el rigor científico. Busco crear un espacio seguro donde te sientas validado(a). Trabajo con adolescentes, adultos y parejas mediante sesiones de 1 hora, adaptando los tiempos de forma flexible ante escenarios que requieran intervención en crisis inmediata.</p>
+                        <p class="bento-text">Mi enfoque integra la calidez humana con el rigor científico. Busco crear un espacio seguro donde te sientas validado(a). Trabajo con adolescentes, adultos y parejas mediante sesiones de 1 hora, adaptando los tiempos con total contención ante escenarios de intervención en crisis.</p>
+                        <span class="floating-signature">Acompañamiento real</span>
                     </div>
 
-                    <div class="bento-card bento-small glass-card">
-                        <span class="bento-icon text-accent" style="font-size: 3rem;">🎓</span>
-                        <h3 class="bento-title-sm text-accent" style="margin-top: 0.5rem;">Cédula Prof.</h3>
-                        <p class="bento-text text-muted">En proceso</p>
+                    <div class="bento-card bento-small glass-card card-hover-lift">
+                        <span class="bento-icon text-accent" style="font-size: 2.8rem; margin-bottom: 1rem;">🎓</span>
+                        <h3 class="bento-title-sm">Cédula Prof.</h3>
+                        <p class="bento-text text-muted" style="font-style: italic;">En proceso</p>
                     </div>
 
                     <div class="bento-card bento-large glass-card">
                         <h2 class="bento-title">Herramientas y <span class="text-accent">Recursos</span></h2>
                         <div class="pill-container">
-                            <span class="pill">Terapia Breve (12 sesiones)</span>
+                            <span class="pill">Acompaãmiento completo</span>
                             <span class="pill">Intervención en Crisis</span>
                             <span class="pill">Arte Terapia</span>
-                            <span class="pill">Pruebas Proyectivas (HTP, Bender, Machover, etc.)</span>
+                            <span class="pill">Pruebas Proyectivas (HTP, Bender, Machover)</span>
                             <span class="pill">Entrevista Clínica</span>
                         </div>
                     </div>
 
-                    <div class="bento-card bento-small glass-card" style="justify-content: flex-start;">
-                        <h2 class="bento-title" style="font-size: 1.5rem;">Conexión</h2>
+                    <div class="bento-card bento-small glass-card" style="justify-content: center;">
+                        <h2 class="bento-title" style="font-size: 1.6rem;">Conexión</h2>
                         <ul class="bento-list social-list" style="text-align: left; margin-top: 1rem;">
-                            <li><strong>💻 Modalidad:</strong> <br>Atención 100% en línea.</li>
-                            <li><strong>📸 Instagram:</strong> <br><span class="text-muted">[ Próximamente ]</span></li>
+                            <li><strong>💻 Modalidad:</strong> <br><span style="font-weight: 300;">100% en línea.</span></li>
+                            <li><strong>📸 Instagram:</strong> <br><span class="text-muted" style="font-style: italic;">[ Próximamente ]</span></li>
+                            <li><strong>💼 LinkedIn:</strong> <br><span class="text-muted" style="font-style: italic;">[ Próximamente ]</span></li>
                         </ul>
                     </div>
                 </div>
             </section>
 
             <section id="experiencia" class="experience-section fade-in">
+                <div class="editorial-tag" style="text-align: left; margin-bottom: 1rem;">background</div>
                 <h2 class="section-heading">Trayectoria <span class="text-accent">Profesional</span></h2>
                 <div class="timeline-modern">
                     <div class="timeline-row glass-card">
                         <div class="timeline-time">
-                            <span class="year">2023 - 2024</span>
-                            <span class="type">Prácticas Clínicas</span>
+                            <span class="year">23 - 24</span>
+                            <span class="type">Clínica</span>
                         </div>
                         <div class="timeline-data">
                             <h3>DEPAC - CESUN Universidad</h3>
-                            <p>Atención psicológica mediante el modelo de terapia breve. Aplicación e interpretación de una amplia batería de pruebas proyectivas, elaboración de expedientes clínicos y acompañamiento a adolescentes, adultos y parejas.</p>
+                            <p>Atención bajo el modelo de terapia breve. Aplicación e interpretación de una amplia batería de pruebas proyectivas, manejo de expedientes clínicos y acompañamiento emocional a adolescentes, adultos y parejas.</p>
                         </div>
                     </div>
                     <div class="timeline-row glass-card">
                         <div class="timeline-time">
-                            <span class="year">2022 - 2025</span>
-                            <span class="type">Licenciatura</span>
+                            <span class="year">22 - 25</span>
+                            <span class="type">Grado</span>
                         </div>
                         <div class="timeline-data">
                             <h3>Licenciatura en Psicología</h3>
-                            <p>CESUN Universidad. Formación clínica integral, complementada con estudios especializados en Arte Terapia avalados por la misma institución.</p>
+                            <p>CESUN Universidad. Formación clínica integral, complementada con estudios y talleres especializados en Arte Terapia avalados por la institución.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section id="resenas" class="experience-section fade-in">
-                <h2 class="section-heading">Reseñas de <span class="text-accent">Pacientes</span></h2>
-                <p class="slider-hint">Desliza para ver más experiencias</p>
+                <div class="editorial-tag" style="text-align: left; margin-bottom: 1rem;">testimonios</div>
+                <h2 class="section-heading">Voces y <span class="text-accent">Procesos</span></h2>
+                <p class="slider-hint">Desliza para leer más ⟶</p>
                 
                 <div class="reviews-slider">
                     <div class="review-card glass-card">
                         <div class="review-header">
-                            <div class="review-avatar">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                            </div>
-                            <div class="review-stars">★★★★★</div>
+                            <div class="review-avatar"><span style="font-family: var(--font-serif); font-size: 1.2rem; font-style: italic;">M</span></div>
+                            <div class="review-stars">✦✦✦✦✦</div>
                         </div>
                         <p class="review-text">"Un espacio donde te sientes escuchado y validado. Su enfoque me ayudó a encontrar claridad en momentos difíciles."</p>
                         <p class="review-author">— [Próximamente]</p>
@@ -139,21 +143,17 @@
                     
                     <div class="review-card glass-card">
                         <div class="review-header">
-                            <div class="review-avatar">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                            </div>
-                            <div class="review-stars">★★★★★</div>
+                            <div class="review-avatar"><span style="font-family: var(--font-serif); font-size: 1.2rem; font-style: italic;">C</span></div>
+                            <div class="review-stars">✦✦✦✦✦</div>
                         </div>
-                        <p class="review-text">"La sesión fue reveladora. Excelente profesionalismo y muchísima calidez humana que te hace sentir en confianza."</p>
+                        <p class="review-text">"La sesión fue reveladora. Excelente profesionalismo y muchísima calidez humana que te hace sentir en total confianza."</p>
                         <p class="review-author">— [Próximamente]</p>
                     </div>
 
                     <div class="review-card glass-card">
                         <div class="review-header">
-                            <div class="review-avatar">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                            </div>
-                            <div class="review-stars">★★★★★</div>
+                            <div class="review-avatar"><span style="font-family: var(--font-serif); font-size: 1.2rem; font-style: italic;">A</span></div>
+                            <div class="review-stars">✦✦✦✦✦</div>
                         </div>
                         <p class="review-text">"Me brindó herramientas prácticas desde la primera sesión para manejar mis crisis de ansiedad de manera efectiva."</p>
                         <p class="review-author">— [Próximamente]</p>
@@ -162,20 +162,19 @@
             </section>
 
             <section id="ubicacion" class="experience-section fade-in">
-                <h2 class="section-heading">Ubicación del <span class="text-accent">Consultorio</span></h2>
-                <div class="location-grid glass-card">
+                <div class="location-grid glass-card" style="padding: 0;">
                     <div class="location-details">
-                        <h3>Atención en Línea</h3>
-                        <p>Actualmente brindo atención <strong>100% en línea</strong> a través de videollamada, asegurando la misma calidad, empatía y confidencialidad sin importar donde te encuentres.</p>
-                        <div class="location-status glass-card" style="box-shadow: none;">
+                        <div class="editorial-tag" style="margin-bottom: 1rem;">consulta</div>
+                        <h3 style="font-family: var(--font-serif); font-size: 2.2rem; margin-bottom: 1rem; font-weight: 500;">Espacio <span class="text-accent">Seguro</span></h3>
+                        <p style="font-weight: 300;">Actualmente brindo atención <strong>100% en línea</strong> a través de videollamada, asegurando la misma calidad, empatía y confidencialidad sin importar dónde te encuentres.</p>
+                        
+                        <div class="location-status glass-card" style="margin-top: 2rem;">
                             <span class="status-dot"></span>
                             <p><strong>Consultorio Físico:</strong> En proceso de apertura.</p>
                         </div>
-                        <p class="text-muted" style="margin-top: 1.5rem; font-size: 0.9rem;">
-                            * El mapa a continuación muestra una ubicación de referencia de mi zona de atención principal.
-                        </p>
                     </div>
-                    <div class="location-map">
+                    
+                    <div class="location-map glass-card" style="border-radius: 0; border: none; border-left: var(--border-glass);">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.5516086786634!2d-116.9242944848245!3d32.493905581057424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d938b8c2c8f8ab%3A0x6b8b0e8b2b9b8b0e!2sCESUN%20Universidad!5e0!3m2!1ses!2smx!4v1680000000000!5m2!1ses!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
@@ -184,25 +183,25 @@
             <section id="contacto" class="contact-section fade-in">
                 <div class="contact-glass glass-card">
                     <div class="contact-text">
-                        <h2 class="section-heading" style="margin-bottom: 1rem;">¿Comenzamos?</h2>
-                        <p>Dar el primer paso es de valientes. Envíame un mensaje indicando el motivo de tu consulta y agendemos tu primera sesión para trabajar juntos.</p>
-                        <div class="direct-contact">
-                            <a href="mailto:mirigarcia040204@gmail.com" class="contact-link">📧 mirigarcia040204@gmail.com</a>
-                        </div>
+                        <h2 style="font-family: var(--font-serif); font-size: 2.5rem; margin-bottom: 1rem; font-weight: 500;">¿Comenzamos?</h2>
+                        <p style="font-weight: 300; margin-bottom: 1.5rem;">Dar el primer paso es de valientes. Cuéntame brevemente en qué te puedo apoyar y agendemos tu primera sesión.</p>
                     </div>
 
                     <div class="contact-form">
                         <form action="#success-msg" class="modern-form">
-                            <div class="input-wrapper">
-                                <input type="text" id="nombre" class="modern-input peer" required placeholder=" ">
-                                <label for="nombre" class="modern-label">Tu nombre completo</label>
-                                <div class="input-line"></div>
-                            </div>
                             
-                            <div class="input-wrapper">
-                                <input type="email" id="correo" class="modern-input peer" required placeholder=" ">
-                                <label for="correo" class="modern-label">Tu Correo Electrónico</label>
-                                <div class="input-line"></div>
+                            <div class="input-row">
+                                <div class="input-wrapper">
+                                    <input type="text" id="nombre" class="modern-input peer" required placeholder=" ">
+                                    <label for="nombre" class="modern-label">Tu nombre</label>
+                                    <div class="input-line"></div>
+                                </div>
+                                
+                                <div class="input-wrapper">
+                                    <input type="email" id="correo" class="modern-input peer" required placeholder=" ">
+                                    <label for="correo" class="modern-label">Tu correo</label>
+                                    <div class="input-line"></div>
+                                </div>
                             </div>
 
                             <div class="input-wrapper">
@@ -219,12 +218,12 @@
                             </div>
                             
                             <div class="input-wrapper">
-                                <textarea id="mensaje" class="modern-input peer" rows="3" required placeholder=" "></textarea>
+                                <textarea id="mensaje" class="modern-input peer" rows="2" required placeholder=" "></textarea>
                                 <label for="mensaje" class="modern-label">Escribe tu mensaje aquí</label>
                                 <div class="input-line"></div>
                             </div>
 
-                            <button type="submit" class="btn btn-primary btn-full btn-glow">Enviar Mensaje</button>
+                            <button type="submit" class="btn btn-primary btn-full btn-glow" style="margin-top: 0.5rem;">Enviar Mensaje</button>
                             
                             <div id="success-msg" class="alert-success">
                                 ✨ Mensaje enviado correctamente. Te contactaré a la brevedad.
@@ -240,24 +239,24 @@
                 
                 <div class="footer-left">
                     <label for="dark-mode-toggle" class="theme-switch" aria-label="Cambiar tema">
-                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                     </label>
                 </div>
                 
                 <div class="footer-center">
-                    <span class="footer-brand">Psic. <span class="text-accent" style="font-size: 1.1em;">Mirian</span> Garcia</span>
-                    <p class="text-muted" style="margin-top: 0.3rem; font-size: 0.85rem;">© 2026 Todos los derechos reservados.</p>
+                    <span class="footer-brand" style="font-weight: 400;">Psic. <span class="text-accent" style="font-size: 1.1em;">Mirian</span> Garcia</span>
+                    <p class="text-muted" style="margin-top: 0.3rem; font-size: 0.8rem; letter-spacing: 0.5px;">© 2026 TODOS LOS DERECHOS RESERVADOS</p>
                 </div>
 
                 <div class="footer-right">
-                    <a href="CV.pdf" download="CV_Mirian_Garcia.pdf" class="nav-link" style="font-weight: 600;">Descargar CV</a>
+                    <a href="CV.pdf" download="CV_Mirian_Garcia.pdf" class="nav-link" style="font-size: 0.9rem; letter-spacing: 0.5px;">Descargar CV</a>
                 </div>
             </div>
         </footer>
 
         <a href="https://wa.me/526634053289" target="_blank" class="floating-whatsapp" aria-label="Contactar por WhatsApp">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
         </a>
 
     </div>
